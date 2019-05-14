@@ -12,7 +12,7 @@ new Vue({
     ],
   },
   methods: {
-	addStudent: function(event) {
+  addStudent: function(event) {
     this.students.push({
 	    id: this.id++,
 	    name: this.name,
