@@ -14,11 +14,11 @@ new Vue({
   methods: {
   addStudent: function(event) {
     this.students.push({
-	    id: this.id++,
-	    name: this.name,
+      id: this.id++,
+      name: this.name,
 	    cource: this.cource,
 	    acceptance_period: this.acceptance_period
       })
-	  }
+    }
   }
 })
